@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Info</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cat Breeds App</h1>
+      <form id="breedForm">
+        <label for="numberOfBreeds"
+          >How many cat breeds do you want to see?</label
+        >
+        <input
+          type="number"
+          id="numberOfBreeds"
+          name="numberOfBreeds"
+          value="5"
+          min="1" />
+        <button type="submit">Fetch Breeds</button>
+      </form>
+    </div>
+      <div id="breedsContainer"></div>
+
+  </body>
+</html>
